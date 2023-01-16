@@ -51,3 +51,20 @@ print("----------------------")
 tupla = (1,2,"hola",True,[7,False],5.3)
 for i in tupla:
     print(f"El valor de i es: {i}")
+    
+print("----------------------")
+
+# print(indice, contenido)
+texto = "hola mundo"
+for i in range(len(texto)):
+    print(f"i: {i} - texto[i]: {texto[i]}")
+
+indice = 0
+for i in texto:
+    print(f"indice: {indice} - i: {i}")
+    indice += 1
+
+# enumerate -> Genera pares sobre una secuencia que contienen
+# al índice y al valor de cada uno de los elementos de la secuencia
+for indice, valor in enumerate(texto):
+    print(f"indice: {indice} - valor: {valor}")
