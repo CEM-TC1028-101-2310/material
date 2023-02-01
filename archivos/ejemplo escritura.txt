@@ -1,0 +1,9 @@
+hola
+mundo
+¿Cómo
+estás?
+Es
+un
+ejemplo
+de
+writelines()
